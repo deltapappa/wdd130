@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+:root {
+  --paragraph-font: 'Oswald', sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,8 +11,15 @@
 }
 
 aside {
+  position: relative;
   width: 20em;
   text-align: center;
+}
+
+aside h2 {
+  position: absolute;
+  top: 0px;
+  left: 90px;
 }
 
 aside img {
@@ -14,15 +27,28 @@ aside img {
   height: auto;
 }
 
+main {
+  width: 100em;
+}
+
+main h1 {
+  text-align: center;
+}
 main img {
+  float: right;
   width: 150px;
   height:auto;
-  border: 1px solid burlywood;
+  border: 1px solid rgb(0, 0, 0);
   padding: 2px;
   box-shadow: 0 0 30px gray;
 }
 
-p { padding: 0;}
+p { 
+  font-family: var(--paragraph-font);
+  font-size: 1.2rem;
+  padding: 2px;
+  text-align: left;
+}
 
 footer {
   margin-top: 1em;
@@ -31,25 +57,25 @@ footer {
 }
 
 h1 {
-  color: steelblue;
+  color: rgb(218, 135, 10);
 }
 
 nav a {
-  color: white;
+  color: rgb(214, 204, 57);
   padding: 10px;
   display: block;
 }
 
 nav {
-  background-color: steelblue;
+  background-color: rgb(24, 97, 207);
   padding: 10px;
 }
 
 /* Class Selectors */
 .box {
   margin: 1rem;
-  padding: 1rem;
-  border: 1px solid rgba(211, 9, 19, 0.897);
-  background-color: #ffffff;
-  color: #333;
+  padding: 2rem;
+  border: 2px solid rgba(0, 0, 0, 0.897);
+  background-color: rgb(218, 135, 10);
+  color: #000000;
 }
