@@ -16,10 +16,10 @@ aside {
   text-align: center;
 }
 
-aside h2 {
+aside h3 {
   position: absolute;
   top: 0px;
-  left: 90px;
+  left: 105px;
 }
 
 aside img {
@@ -28,11 +28,17 @@ aside img {
 }
 
 main {
-  width: 100em;
+  width: auto;
 }
 
 main h1 {
   text-align: center;
+}
+
+main h2 {
+  position: absolute;
+  top: 360px;
+  left: 30px;
 }
 main img {
   float: right;
