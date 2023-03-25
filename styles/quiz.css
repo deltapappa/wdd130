@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.1em;
+    color: #242424;
+    background: #000000cc;
+    }
+
+header {
+    margin: auto;
+    width: 650px;
+    }
+  
+h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    }
+
+form {
+    width: 650px;
+    margin: auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    background-color: #cecece;
+    display: grid;
+    }
+
+fieldset {
+    display: grid;
+    grid-gap: 0.2rem;
+    margin: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 1rem;
+    }
+
+legend {
+    padding: 0.3rem;
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+    font-weight: bold;
+    }
+
+label, input, button, select, textarea {
+    font-family: 'Source Sans Pro', sans-serif;
+    }
+
+label {
+    text-align: left;
+    padding-right: 2rem;
+    }
+
+input, select, textarea {
+    padding: 0.1rem;
+    font-size: 1.1rem;
+    }
+
+button {
+    margin: 1rem;
+    background-color: rgba(4, 0, 255, 0.753);
+    color: #ffffff;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 0.2rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 300px;
+    }
+      
+button:hover {
+    background-color: rgb(38, 184, 38);
+    }
+    
+.button-center {
+    text-align: center;
+    }
+    
+span.inline {
+    display: block;
+    width: 300px;
+    padding: 1px;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 0;
+    color: #ffffff;
+    background-color: rgba(49, 49, 48, 0.733);
+    border-radius: 0.5rem;
+  }
+
+  footer {
+    margin: 2rem auto;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #ff0000;
+    border-top: 1px solid #ccc;
+    }
