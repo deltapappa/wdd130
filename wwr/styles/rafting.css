@@ -95,7 +95,6 @@ div {
 
 div img {
   width: 100%;
-	height: auto;
 	position: relative;
 }
 
@@ -106,7 +105,7 @@ div h1 {
   bottom: 65%;
   width: 100%;
   font-family: 'Rock Salt', cursive;;
-  font-size: 48pt;
+  font-size: 42pt;
   color: rgb(2, 27, 255);
   background-color: rgba(157, 204, 245, 0.712);
 }
@@ -154,13 +153,38 @@ article img {
   height: auto;
 }
 
+.reasons {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.reason1 {
+  max-width: 600px;
+}
+
+.reason2 {
+  max-width: 600px;
+}
+
+.purpose, .offers {
+  font-family: 'Rock Salt', cursive;
+  border-bottom: solid #002fff;
+}
+
+.statement {
+  text-align: left;
+  font-family: var(--paragraph-font);
+}
+
 .trips-list {
   width: 95%;
   margin: 1px auto;
   text-align: center;
   display: flex;
   justify-content: space-between;
-
 }
 
 .trip {
@@ -273,6 +297,7 @@ form {
   border-radius: 1rem;
   background-color: rgba(157, 204, 245, 0.37);
   display: grid;
+  text-align: left;
   }
 
 fieldset {
@@ -281,8 +306,17 @@ fieldset {
   margin: 0.5rem;
   padding: 1rem;
   border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 0.5rem;
   background-color: var(--nav-background-color);
+  
   }
+
+form h2 {
+  margin: 1em auto;
+  padding: 10px;
+  font-size: 16pt;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 legend {
   padding: 0.3rem;
